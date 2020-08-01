@@ -1,5 +1,5 @@
 /*
-    Implementation of Stack using Array
+    Implementation of Stack using Singly Linked List
     Name: Vinayak L Kokane
 */
 
