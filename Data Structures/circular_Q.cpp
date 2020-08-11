@@ -1,5 +1,5 @@
 /*
-    Implementation of Queue Data structure using array
+    Implementation of Circular Queue Data structure using array
     Name: Vinayak L Kokane
 */
 #include<bits/stdc++.h>
