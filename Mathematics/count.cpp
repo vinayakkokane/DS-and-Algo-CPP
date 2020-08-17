@@ -1,3 +1,6 @@
+/* To count the digits in number
+Simple approach - O(digitCount)*/
+
 #include<iostream>
 using namespace std;
 
