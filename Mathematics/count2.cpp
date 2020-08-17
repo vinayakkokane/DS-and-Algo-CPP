@@ -1,3 +1,7 @@
+  
+/* To count the digits in number
+Logarithmic approach - O(1)*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
