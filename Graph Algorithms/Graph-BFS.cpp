@@ -1,3 +1,8 @@
+/*
+Name: Vinayak Kokane
+Graph traversal algorithm: Breadth First Search (BFS)
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -59,7 +64,7 @@ public:
 int main()
 {
     graph G(5);
-    cout<<"Graph is : \n";
+    cout<<"BFS of this graph is : \n";
     G.edgeList(0,1);
     G.edgeList(2,0);
     G.edgeList(1,3);
