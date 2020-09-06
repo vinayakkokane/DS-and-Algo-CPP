@@ -1,3 +1,8 @@
+/*
+    Implementation of Graph using Adjecency List Representation 
+    Name: Vinayak L Kokane
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
