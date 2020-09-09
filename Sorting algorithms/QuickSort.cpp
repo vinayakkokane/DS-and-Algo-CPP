@@ -36,14 +36,24 @@ void QuickSort( int arr[] , int low, int high)
 
 }
 
-int main()
-{
-    int arr[]={11,13,7,12,16,9,24,5,10,3},n=11,i;
-    int x = arr[0] ; 
-    QuickSort(arr,x,n-1);
-    for(i=0;i<10;i++)
+int main(){
+
+    int n;  
+    cout<<"Enter size: \n";
+    cin>>n;
+    int arr[n];
+    cout<<"Enter an array: \n";
+    for (int i = 0; i < n; i++)
+    {
+        cin>>arr[i];
+    }
+    QuickSort(arr,0,n-1);
+    cout<<"Sorted array is :\n";
+    for (int i = 0; i < n; i++)
+    {
         cout<<arr[i]<<" ";
-    return 0;
+    }
 }
+    
 
     
