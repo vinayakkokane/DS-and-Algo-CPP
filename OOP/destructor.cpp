@@ -18,3 +18,9 @@ int main() {
     abc obj;
     return 0;
 }
+
+/*
+    O/P will be:
+        This is constructor
+        Destructor is called
+*/
