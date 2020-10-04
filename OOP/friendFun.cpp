@@ -10,7 +10,7 @@ class abc{
         void print(){
             cout<<"x is: "<<x<<endl<<"y is: "<<y<<endl;
         }
-        friend void addData(abc);
+        friend void addData(abc);       //Global friend function
 };
 
 //As it's a friend function we don't need to write like void abc:: addData...something like that..
